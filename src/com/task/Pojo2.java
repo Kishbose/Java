@@ -1,0 +1,35 @@
+package com.task;
+
+public class Pojo2 {
+ 
+	public static void main(String[] args) {
+		Pojo pj = new Pojo();
+		
+		pj.setName("java");
+		pj.setAge(30);
+
+     System.out.println(pj.getName());
+     System.out.println(pj.getAge()); 
+		
+     Pojo3 p = new Pojo3();
+     p.setName("aaa");
+     System.out.println( p.getName());
+     System.out.println(p.getAge());
+	
+	
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
