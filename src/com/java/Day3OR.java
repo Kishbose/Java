@@ -11,6 +11,13 @@ public class Day3OR extends Day3{
 		System.out.println("Software");
 		super.Method();
 	}	
+	@Override
+	public void Method1() {
+		System.out.println("Rx");
+		super.Method1();
+	}
+	
+	
  @Override
 public void Method(float num, char value) {
 	System.out.println(" Graph program dimension XY and"+" "+ num+" "+"Abbrivation of Java(J)Development(D)Kit"+(value));
@@ -21,5 +28,6 @@ public void Method(float num, char value) {
 	d3OR.Method(5,"Chennai",232424245);
 	d3OR.Method(); 
     d3OR.Method(-5, 'j');
+    d3OR.Method1();
  }
 }

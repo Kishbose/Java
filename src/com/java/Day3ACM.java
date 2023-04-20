@@ -1,5 +1,7 @@
 package com.java;
-                   
+
+import java.security.PublicKey;
+
 public class Day3ACM extends Day3Ac {
 	           //---- Add Unimplemented method -----//
 
@@ -7,15 +9,17 @@ public class Day3ACM extends Day3Ac {
 	public void name() {
 		System.out.println("BOSE");
 	}
-	@Override                         //-- Override class Day3AC ----//
-	public void rollnumber() {
-		System.out.println(19049);
-	}
+	
 	@Override
 	public void Regnumber() {
 		System.out.println(1901211033);
-		
 	}
+	
+	@Override
+	public void rollnumber() {
+		System.out.println("19ca049");
+	}
+	
     public static void main(String[] args) { 
     	Day3ACM d3ACM = new Day3ACM();
     	d3ACM.name();

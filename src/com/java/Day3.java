@@ -11,6 +11,11 @@ public class Day3{
 		String c="Augest";
 		System.out.println("Class Starts With "+a+" "+"Program"+" "+ "Day on"+" "+b+c);
 	}
+    
+    public void Method1() {
+		System.out.println("RX");
+	}
+    
 	public void Method(float num,char value ) {
 		System.out.println("Graph program dimension XY and"+" "+ num+" "+"Abbrivation of Java(J)Development(D)Kit"+(value));
 	}
@@ -25,5 +30,6 @@ public class Day3{
 		d3.Method("Java",15 );
 		d3.Method(-1, 'K');
 		d3.Method(22, "Uthiramerur", 1234567890);	
+	    d3.Method();
 	}
 }

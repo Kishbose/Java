@@ -15,15 +15,15 @@ public class Switch_case {
             case 0 : 
                int a=num1 + num2;
                System.out.println("Add : "+a);   //---Add
-                
+              break;  
             case 1 : 
                 int b = num1-num2;
                 System.out.println("Sub : "+b);   //---Sub
-              
+              break;
             case 2 : 
                 int c = num1*num2;
                 System.out.println("Mul : "+c);  //---Mul 
-                
+                break;
             case 3 : 
             	int d = num1/num2;
             	System.out.println("Div : "+d); // --- Div

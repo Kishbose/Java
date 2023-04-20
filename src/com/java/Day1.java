@@ -1,4 +1,4 @@
-package com.java;
+ package com.java;
 
 public class Day1 {
 	
@@ -16,7 +16,7 @@ public class Day1 {
 			System.out.println("Rolex");
 		
 		}
-	 public static void main(String[]args){
+    	public static void main(String[]args){
 		 Day1 d = new Day1();		 
 		d.Bose();
 		d.Rx();
